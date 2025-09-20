@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Pizza - Pizzaria</title>
 </head>
+
 <body>
     <header>
         <div>
@@ -17,37 +19,111 @@
         </div>
     </header>
     <main>
-            <section id="sobre">
+        <section id="sobre">
+            <div>
                 <div>
-                    <div>
-                        <h1> La pizza - Melhor pizza de Mauá</h1>
-                        <p>Bem vindos ao nosso cardapio online !! Desde 1989 buscando o melhor para você.</p>
-                    </div>
+                    <h1> La pizza - Melhor pizza de Mauá</h1>
+                    <p>Bem vindos ao nosso cardapio online !! Desde 1989 buscando o melhor para você.</p>
+                </div>
                 <figure>
-                    <img src="img/img.jpg" 
-                    width="500" 
-                    height="320" 
-                    alt="A deliciosa pizza de calabresa do La Pizza"/>
+                    <img src="img/img.jpg" width="500" height="320" alt="A deliciosa pizza de calabresa do La Pizza" />
                 </figure>
-                </div>
+            </div>
 
-            </section>
-            <section id="cardapio">
-                <div>
-                    <div>
-                        <h1>cardapio</h1>
-                    </div>
-                </div>
+        </section>
+        <section id="cardapio">
+            <div>
+                <h1>cardapio</h1>
+                <p>Os mais pedidos do menu. </p>
 
-            </section>
-            <section id="contato">
-                <div>
-                    <div>
-                        <h1>contato</h1>
-                    </div>
-                </div>
+            </div>
+            <!-- ITEM 1 -->
+            <article>
+                <figure>
+                    <img src="img/T.jpg" width="300" height="200" alt="Uma deliciosa pizza toscana">
+                </figure>
+                <h2>Pizza de toscana.</h2>
+                <p>Ingredientes: Feita com carne de porco, gordura e temperos, como alho, sal e especiarias italianas.
+                </p>
+                <span>R$ 39,00 </span>
+            </article>
 
-            </section>
-    </main>
+            <!-- ITEM 2 -->
+            <article>
+                <figure>
+                    <img src="img/FC.jpg" width="300" height="200" alt="Uma delicisa pizza de frango com Catupiry">
+                </figure>
+                <h2>Pizza de Frango com Catupiry.</h2>
+                <p>Ingredientes: Creme de leite, massa coalhada (leite desnatado e cloreto de sódio), sal (cloreto de
+                    sódio), estabilizante: pirofosfato e polifosfato e sal. alcalinizate, bicarbonato de sódio. </p>
+                <span>R$ 39,00 </span>
+            </article>
+
+            <!-- ITEM 3 -->
+            <article>
+                <figure>
+                    <img src="img/MC.jpg" width="300" height="200" alt="Uma deliciosa pizza de morango com chocolate">
+                </figure>
+                <h2>Pizza de Morango com chocolate.</h2>
+                <p>Ingredientes: Morango, chocolate, leite condensado e leite em pó. </p>
+                <span>R$ 35,00 </span>
+            </article>
+
+            <!-- ITEM 4 -->
+            <article>
+                <figure>
+                    <img src="img/C.jpg" width="300" height="200" alt="Uma deliciosa pizza de calabresa">
+                </figure>
+                <h2>Pizza de Calabresa.</h2>
+                <p>Ingredientes:Molho de tomate, Queijo muçarela, Linguiça calabresa fatiada, Cebola em rodelas, Orégano e Azeitonas pretas (opcional) </p>
+                <span>R$ 39,00 </span>
+            </article>
+
+            <!-- ITEM 5 -->
+            <article>
+                <figure>
+                    <img src="img/M.jpg" width="300" height="200" alt="Uma deliciosa pizza de maguerita">
+                </figure>
+                <h2>Pizza de Maerguerita.</h2>
+                <p>Ingredientes: Tomate ou Molho de Tomate, Muçarela de Búfala, Manjericão Fresco.
+</p>
+                <span>R$ 39,00 </span>
+            </article>
+
+            <!-- ITEM 6 -->
+            <article>
+                <figure>
+                    <img src="img/P.jpg" width="300" height="200" alt="Uma deliciosa pizza portuguesa">
+                </figure>
+                <h2>Pizza Portuguesa.</h2>
+                <p>Ingredientes: Molho de tomate, Queijo muçarela, Presunto, Ovo cozido, Cebola em rodelas, Azeitona preta e Orégano. 
+ </p>
+                <span>R$ 35,00 </span>
+            </article>
+
+
+        </section>
+        <section id="contato">
+            <div>
+                <h2>Fale com a gente !!</h2>
+                <form>
+                    <label>
+                        name:
+                        <input type="text" placeholder="digite seu nome completo..." name="nome" required/>
+                    </label>
+                    <label>
+                        telefone:
+                        <input type="tel" placeholder="(11) 11111-1111" name="telefone" required/>
+                    </label>
+                    <label>
+                        mensagem:
+                        <textarea name="mensagem" placeholder="digite sua mensagem..." rows="5"></textarea>
+                    </label>
+                </form>
+            </div>
+        </section>
+        
+        </main>
 </body>
+
 </html>
