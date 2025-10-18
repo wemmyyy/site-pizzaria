@@ -203,3 +203,42 @@ footer {
 .back-top:hover {
     text-decoration: underline;
 }
+.mapa iframe {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ffe8ea;
+    border-radius: 10px;
+}
+
+footer {
+    border-top: 1px solid #e9e9e9;
+    background-color: #c62828;
+    color: white;
+    scroll-padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: orange;
+    font-weight: 600;
+}
+
+@media (max-width: 870px) {
+
+    .section {
+    padding-top: 56px;
+    padding-bottom: 56px;}
+}
+
+nav a {
+    padding: 10px 11px 10px 11px;
+}
+
+.hero-text {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
